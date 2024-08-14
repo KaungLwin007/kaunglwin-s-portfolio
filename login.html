@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaung Lwin's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #000000;
+            color: #2600ff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            background: linear-gradient(135deg, #ffffff, #0f4c6b);
+            color: #27084b;
+            padding: 60px 20px;
+            border-bottom: 10px solid #1ccc0c;
+            position: relative;
+            overflow: hidden;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            animation: fadeInUp 1.5s ease-out;
+        }
+        header nav {
+            margin-top: 20px;
+        }
+        header nav a {
+            color: #3cff00;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        header nav a:hover {
+            color: #66ff00;
+        }
+        section {
+            margin: 40px 0;
+            padding: 40px;
+            border-radius: 15px;
+            background: #260b33;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        section h2 {
+            font-size: 2.5em;
+            color: #33ff00;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #c0cfbc;
+        }
+        section h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: #1a0a49;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            border-radius: 2px;
+        }
+        .project-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #1fff02, #e3e9e2);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+        }
+        .contact {
+            text-align: center;
+            padding: 40px;
+            background: #2e0846;
+            color: #c8ff00;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .contact a {
+            color: #73ff00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .contact a:hover {
+            color: #48ff00;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+            color: #160909;
+            border-top: 1px solid #ddd;
+            margin-top: 40px;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kaung Lwin's Portfolio</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#Goals">Goals</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        
+        <section id="about">
+            <h2>ကျွန်ုပ်၏အကြောင်း</h2>
+            <p>Hello! ကျနော့်နာမည်က ကောင်းလွင်ပါ Web Growing ကို အလွန် စိတ်ဝင်စားနေသော အထက်တန်းကျောင်းသားတစ်ယောက်ပါ။ လက်ရှိတွင်၊ ကျွန်ုပ်သည် code ရေးခြင်းနှင့် Web Design ဆိုင်ရာ ၏ တစ်စိတ်တစ်ပိုင်းအနေဖြင့် HTML ကို ကိုယ်တိုင်လေ့လာနေပါသည်။ ဤနယ်ပယ်တွင် ကျွန်ုပ်သည် အသစ်ဖြစ်သော်လည်း၊ Web Growing၏ အခြေခံများကို သင်ယူပြီး Websiteများကို ဖန်တီးပုံနှင့် ဒီဇိုင်းဆွဲနည်းကို ရှာဖွေခြင်းတို့တွင် စိတ်အားထက်သန်နေပါသည်။ ကျွန်ုပ်သည် လေ့လာသင်ယူနေသည့်အရာများကို အသုံးချကာ အတွေ့အကြုံများရရှိရန် ကျွန်ုပ်၏ကိုယ်ပိုင် websiteကို တည်ဆောက်ခြင်းကဲ့သို့သော ပရောဂျက်အသေးစားများကို လုပ်ဆောင်နေပါသည်။
+                ကျွန်ုပ်သည် အပြန်အလှန်အကျိုးသက်ရောက်သော  Webpage များ ဖန်တီးခြင်း သို့မဟုတ် CSS အကြောင်း လေ့လာခြင်း ကို အထူးစိတ်ဝင်စားပါသည်။ ကျွန်ုပ်သည် ဤနယ်ပယ်တွင် ကျွန်ုပ်၏ အသိပညာနှင့် ကျွမ်းကျင်မှုများကို ချဲ့ထွင်ရန် စိတ်အားထက်သန်နေပြီး သင်ယူမှုအခွင့်အလမ်းအသစ်များကို စူးစမ်းရှာဖွေရန် စိတ်လှုပ်ရှားမိပါတယ်။
+                HTML မလေ့လာဖြစ်တဲ့အချိန်တွေမှာ ဂစ်တာတီးတာ၊ သီချင်းနားထောင်တို့လိုမျိုးလုပ်ရတာကြိုက်ပါတယ်။ စူးစမ်းချင်စိတ်နဲ့ စေတနာထားမှုက အောင်မြင်မှုရဲ့ သော့ချက်လို့ ယုံကြည်ပြီး ကျွန်တော်လုပ်တဲ့အရာတိုင်းမှာဒီစိတ်လေးထားပြီးလုပ်ဖြစ်ပါတယ်။
+                Instagram နှင့် Facebook တို့တွင် ကျွန်ုပ်နှင့် ဆက်သွယ်ရန် သို့မဟုတ် ကျွန်ုပ်၏ ပရောဂျက်များကို ဝင်ရောက်ကြည့်ရှုနိုင်ပါတယ်။ပိုမိုလေ့လာသင်ယူပြီး web growing ကမ္ဘာကို စူးစမ်းလေ့လာခြင်းအတွက် စိတ်လှုပ်ရှားမိပါတယ်။
+                </p>
+        </section>
+        
+        <section id="projects">
+            <h2>ကျွန်ုပ်၏ လေ့လာမှုပန်းတိုင်များ</h2>
+            <p>ကျွန်ုပ်သည် Web growing တွင် ကျွန်ုပ်၏ သင်ယူမှုပန်းတိုင်များစွာကို အောင်မြင်ရန် အာရုံစိုက်နေပါသည်။ ဒါကတော့ ကျွန်တော် လက်ရှိလုပ်ဆောင်နေတဲ့ အရာပါ။</p>
+            
+            <div class="project-item">
+                <h3>HTML & CSS ကို ကျွမ်းကျင်စွာ တတ်မြောက်ခြင်း။</h3>
+                <p>ကျွန်ုပ်၏လက်ရှိပန်းတိုင်မှာ ဖွဲ့စည်းပုံကောင်းမွန်ပြီး အမြင်အာရုံဆွဲဆောင်နိုင်သော web page များကို ဖန်တီးရန်အတွက် အကောင်းဆုံးအလေ့အကျင့်များအပါအဝင် HTML နှင့် CSS ကို ခိုင်မာစွာနားလည်ရန်ဖြစ်သည်။</p>
+            </div>
+                <div class="project-item">
+                <h3>အပြန်အလှန်အကျိုးပြုသော Website များ တည်ဆောက်ခြင်း။</h3>
+                <p>ဖောင်များနှင့် ခလုတ်များကဲ့သို့ အပြန်အလှန်အကျိုးသက်ရောက်သော web element များ ဖန်တီးနည်းကို လေ့လာလိုပြီး အသုံးပြုသူအတွေ့အကြုံကို မြှင့်တင်ရန်အတွက် web page များတွင် ပေါင်းစည်းရန် စိတ်အားထက်သန်ပါသည်။</p>
+            </div>.
+            <div class="project-item">
+                <h3>JavaScript အခြေခံများကို ရှာဖွေခြင်း။</h3>
+                <p>HTML နှင့် CSS ကို အဆင်ပြေပြေ အသုံးပြုနိုင်သည်နှင့် တပြိုင်နက် ကျွန်ုပ်၏ Web project များတွင် တက်ကြွသော လုပ်ဆောင်နိုင်စွမ်းကို ထည့်သွင်းရန် JavaScript ကို စတင်လေ့လာရန် စီစဉ်ထားပါသည်။</p>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out via email at <a href="mailto:kaunghsukyaw@gmail.com">kaunghsukyaw@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>.</p>
+        </section>
+        
+        <footer>
+            <p>&copy; 2024 [Kaung Lwin]. All rights reserved.</p>
+        </footer>
